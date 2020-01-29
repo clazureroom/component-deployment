@@ -1,8 +1,9 @@
-# component-deployment
+# Create a Web App plus Redis Cache plus SQL Database using a template
 
-Azure CLI https://docs.microsoft.com/en-gb/cli/azure
+[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?repository=https://github.com/clazureroom/component-deployment/tree/master/webapp-redis-sql)
 
-Deployment Tutorial https://docs.microsoft.com/en-gb/azure/azure-resource-manager/templates/template-tutorial-create-first-template?tabs=azure-cli
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2F201-web-app-redis-cache-sql-database%2Fazuredeploy.json" target="_blank">
+    <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
+</a>
 
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/?repository=https://github.com/clazureroom/component-deployment/tree/master/redis-cache)
-
+For information about using this template, see [Create a Web App plus Redis Cache using a template](https://azure.microsoft.com/en-us/documentation/articles/cache-web-app-arm-with-redis-cache-provision/) and [Provision a web app with a SQL Database](https://azure.microsoft.com/en-us/documentation/articles/app-service-web-arm-with-sql-database-provision/).
