@@ -176,7 +176,8 @@
         "hostingPlanName": "[concat('hostingplan', uniqueString(resourceGroup().id))]",
         "webSiteName": "[concat('webSite', uniqueString(resourceGroup().id))]",
         "pgserverName": "[concat('pgserver', uniqueString(resourceGroup().id))]",
-        "cacheName": "[concat('cache', uniqueString(resourceGroup().id))]"
+        "cacheName": "[concat('cache', uniqueString(resourceGroup().id))]",
+        "databaseSkuCapacity": "[2]"
     },
     "resources": [
         {
